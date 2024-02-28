@@ -1,0 +1,29 @@
+.NavBar {
+    background-color: #CCCCCC;
+    width: 530px;
+    height: 140px;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    bottom: 50px;
+  }
+  
+.NavBtn {
+    background-color: #D9D9D9;
+    width: 120px;
+    aspect-ratio: 1;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Active-Btn {
+    background-color: #D5D5D5;
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Active-Btn > .BtnIcon {
+    transform: translateY(4px);
+}

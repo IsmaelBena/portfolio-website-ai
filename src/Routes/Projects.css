@@ -1,0 +1,16 @@
+.ProjectCardsContainer {
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.ProjectRow {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
