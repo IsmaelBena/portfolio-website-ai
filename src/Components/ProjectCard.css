@@ -1,6 +1,7 @@
 .ProjectCard {
     position: relative;
     margin: 20px;
+    transform: translateZ(-1);
 }
 
 .ProjectCardSize {

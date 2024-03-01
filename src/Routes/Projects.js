@@ -1,10 +1,11 @@
 import './Projects.css';
 import ProjectCard from '../Components/ProjectCard';
+import Title from '../Components/Title';
 
 function Projects() {
   return (
     <div className='Projects'>
-        <h1>Projects</h1>
+        <Title />
         <div className='ProjectCardsContainer'>
           <div className='ProjectRow'>
             <ProjectCard />
