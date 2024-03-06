@@ -1,3 +1,7 @@
+.Projects {
+    overflow-y: scroll;
+}
+
 .PageLayout {
     display: flex;
     flex-direction: column;
