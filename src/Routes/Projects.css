@@ -1,18 +1,19 @@
-.Projects {
-    overflow-y: scroll;
+.TitleFadeDiv {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 180px;
+    background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.8), rgba(0,0,0,0));
+    z-index: 1;
 }
 
-.PageLayout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Projects {
+    overflow-y: scroll;
     width: 100%;
-    height: 100%;
 }
 
 .ProjectCardsContainer {
-    margin: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,4 +27,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 500px) {
+    .ProjectCardsContainer {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid blue;
+    }
 }

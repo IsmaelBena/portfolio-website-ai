@@ -21,6 +21,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/Projects" element={<Projects />} />
         </Routes>
+        <div className="navBarFade"></div>
         <NavBar />
       </BrowserRouter>
     </div>

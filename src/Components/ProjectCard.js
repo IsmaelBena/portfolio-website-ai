@@ -1,6 +1,6 @@
 import './ProjectCard.css';
 
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 function ProjectCard() {
 
@@ -8,8 +8,8 @@ function ProjectCard() {
     <div className='ProjectCard'>
         <div className='AccentDiv ProjectCardSize'></div>
         <div className='CardContent ProjectCardSize'>
-            <p className='ProjectName'>Project Placeholder Name</p>
-            <p className='ProjectSummary'>This is placeholder text for the project summary. This is placeholder text for the project summary. This is placeholder text for the project summary. This is placeholder text for the project summary. This is placeholder text for the project summary. This is placeholder text for the project summary. This is placeholder text for the project summary. </p>
+            <p className='ProjectName'>Image Classification of Landscapes</p>
+            <p className='ProjectSummary'>Given an image of a Coast, Desert, Forest, Glacier or Mountains, this model will predict which environment it is. Developed in <span className='HighlightedKeyword'>Python</span> using Pytorch with application of techniques such as CNNS, Alexnet and VGG-16/19.</p>
         </div>
     </div>
   );

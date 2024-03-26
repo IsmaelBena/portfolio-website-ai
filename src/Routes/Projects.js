@@ -5,6 +5,7 @@ import Title from '../Components/Title';
 function Projects() {
   return (
     <div className='Projects'>
+        <div className='TitleFadeDiv'></div>
         <Title />
         <div className='ProjectCardsContainer'>
           <div className='ProjectRow'>
