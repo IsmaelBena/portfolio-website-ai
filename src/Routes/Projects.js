@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className='Projects'>
         <div className='TitleFadeDiv'></div>
-        <Title />
+        <Title title={"Projects"}/>
         <div className='ProjectCardsContainer'>
           <div className='ProjectRow'>
             <ProjectCard />

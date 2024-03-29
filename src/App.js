@@ -9,7 +9,7 @@ import './App.css';
 
 import Landing from './Routes/Landing'
 import Projects from './Routes/Projects'
-
+import Socials from "./Routes/Socials";
 import NavBar from './Components/NavBar'
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/socials" element={<Socials />} />
         </Routes>
         <div className="navBarFade"></div>
         <NavBar />

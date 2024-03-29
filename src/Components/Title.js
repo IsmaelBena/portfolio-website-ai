@@ -1,14 +1,12 @@
 import './Title.css';
 
-import { Link } from "react-router-dom";
-
-function Title() {
+function Title(props) {
 
   return (
     <div className='Title'>
         <div className='TitleAccent TitleSize'></div>
         <div className='TitleContent TitleSize'>
-            <p className='TitleText'>Projects</p>
+            <p className='TitleText'>{props.title}</p>
         </div>
     </div>
   );
